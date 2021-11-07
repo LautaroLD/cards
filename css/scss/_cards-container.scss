@@ -1,0 +1,53 @@
+main {
+    .cards-container {
+        display           : grid;
+        grid-template-rows: repeat(4, 1fr);
+        gap               : 20px;
+        padding           : 10%;
+        height            : auto;
+
+        .card {
+            height          : auto;
+            min-width: 170px;
+            padding         : 15px;
+            background-color: $color-light;
+            border-radius: 10px;
+            box-shadow:0px 4px 10px 0px rgb(163, 162, 162);
+            h2 {
+                @include style-title();
+            }
+
+            p {
+                @include style-p();
+            }
+        }
+
+        .card-supervisor {
+            @include cards-border($color-Cyan);
+            span {
+                @include icon-card('supervisor.svg');
+            }
+        }
+
+        .card-TeamBuilder {
+            @include cards-border($color-Red);
+            span {
+                @include icon-card('team-builder.svg');
+            }
+        }
+
+        .card-Calculator {
+            @include cards-border($color-Blue);
+            span {
+                @include icon-card('calculator.svg');
+            }
+        }
+
+        .card-Karma {
+            @include cards-border($color-Orange);
+            span {
+                @include icon-card('karma.svg');
+            }
+        }
+    }
+}

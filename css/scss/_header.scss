@@ -1,0 +1,23 @@
+header { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    h2, h1, p {
+        width: 90%;
+    }
+    h2, h1 {
+        font-size: 2rem;
+        color: $color-Very-Dark-Blue;
+    }
+    h2 {
+        font-weight: 200;
+    }
+    h1 {
+        @include style-title();
+    }
+    p {
+        @include style-p();
+    }
+}

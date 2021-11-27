@@ -77,7 +77,7 @@ main .cards-container .card-supervisor {
 main .cards-container .card-supervisor span {
   margin-top: 25px;
   display: flex;
-  background-image: url("/images/icon-supervisor.svg");
+  background-image: url("../images/icon-supervisor.svg");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -89,7 +89,7 @@ main .cards-container .card-TeamBuilder {
 main .cards-container .card-TeamBuilder span {
   margin-top: 25px;
   display: flex;
-  background-image: url("/images/icon-team-builder.svg");
+  background-image: url("../images/icon-team-builder.svg");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -101,7 +101,7 @@ main .cards-container .card-Calculator {
 main .cards-container .card-Calculator span {
   margin-top: 25px;
   display: flex;
-  background-image: url("/images/icon-calculator.svg");
+  background-image: url("../images/icon-calculator.svg");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -113,7 +113,7 @@ main .cards-container .card-Karma {
 main .cards-container .card-Karma span {
   margin-top: 25px;
   display: flex;
-  background-image: url("/images/icon-karma.svg");
+  background-image: url("../images/icon-karma.svg");
   background-size: cover;
   width: 50px;
   height: 50px;
